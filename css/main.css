@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: magenta;
+}
+
+.contenedor1{
+    width: 40%;
+  }
+
+  .gatito1{
+    justify-content: center;
+    padding-top: 40%;
+    width: 100%;
+  }
+
+
+@media (max-width: 1200px){
+  html,body,.papa{
+    background-image: url(../img/Landscape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+}
+@media (max-width: 1200px) {
+  div{
+    content: url(../img/kitten-medium.png);
+  }
+}
+
+
+@media (max-width: 1000px){
+  html,body,.papa{
+    background-image: url(../img/dawn.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  div{
+    content: url(../img/kitten-medium.png);
+  }
+}
+
+
+@media (max-width: 750px) {
+  html,body,.papa{
+    background-image: url(../img/midnight-conversation_861064.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 750px) {
+  div{
+    content: url(../img/kitten-large.png);
+  }
+}
+
+
+@media (max-width: 500px) {
+  html,body,.papa{
+    background-image: url(../img/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 500px) {
+  section{
+    content: url(../img/kitten-small.png);
+  }
+}
